@@ -4,7 +4,9 @@ Morris-Pratt algoritması, bir metin içinde belirli bir kalıbın eşleşip eş
 
 Bu algoritma, Brute Force algoritmasına benzer, ancak bazı optimizasyonlar içerir. Brute Force algoritması, kalıp dizesini tek tek metindeki tüm konumlara karşı kontrol ederek çalışırken, Morris-Pratt algoritması, bir önbellek tablosu kullanarak işlem yapar ve daha az karşılaştırma yaparak daha hızlı sonuçlar elde eder.
 
-Algoritmanın çalışma prensibi şu şekildedir:
+
+
+- Algoritmanın çalışma prensibi şu şekildedir:
 
 Öncelikle kalıp dizesindeki tüm alt dizelerin ön ekleri için bir önbellek tablosu oluşturulur.
 Ardından, metin dizesindeki karakterleri tek tek kontrol ederek kalıp dizesindeki karakterlerle karşılaştırılır.
