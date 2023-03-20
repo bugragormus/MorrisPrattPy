@@ -1,13 +1,13 @@
 # Morris-Pratt Search Algorithm with Python
 
-#### Morris-Pratt Algoritması Nedir?
+### Morris-Pratt Algoritması Nedir?
 
 Morris-Pratt algoritması, bir metin içinde belirli bir kalıbın eşleşip eşleşmediğini bulmak için kullanılan bir dize arama algoritmasıdır. Özellikle uzun metinlerdeki aramaları hızlandırmak için tasarlanmıştır.
 
 Bu algoritma, Brute Force algoritmasına benzer, ancak bazı optimizasyonlar içerir. Brute Force algoritması, kalıp dizesini tek tek metindeki tüm konumlara karşı kontrol ederek çalışırken, Morris-Pratt algoritması, bir önbellek tablosu kullanarak işlem yapar ve daha az karşılaştırma yaparak daha hızlı sonuçlar elde eder.
 
 
-#### Morris-Pratt Algoritması Çalışma Analizi
+### Morris-Pratt Algoritması Çalışma Analizi
 
 Algoritmanın çalışma prensibi şu şekildedir: Öncelikle kalıp dizesindeki tüm alt dizelerin ön ekleri için bir önbellek tablosu oluşturulur.
 Ardından, metin dizesindeki karakterleri tek tek kontrol ederek kalıp dizesindeki karakterlerle karşılaştırılır.
